@@ -5,8 +5,8 @@ import { fetchLocalMapBox } from '../api'
 import { OrderLocationData } from './types'
 
 const initialPosition = {
-   lat: -23.4634773,
-   lng: -45.0513094
+   lat: -23.4332,
+   lng: -45.0834
 }
 
 type Place = {
@@ -69,7 +69,7 @@ function OrderLocation({ onChangeLocation }: Props) {
             </div>
             <MapContainer
                center={address.position}
-               zoom={15}
+               zoom={13}
                key={address.position.lat}
                scrollWheelZoom
             >
@@ -79,7 +79,7 @@ function OrderLocation({ onChangeLocation }: Props) {
                />
                <Marker position={address.position}>
                   <Popup>
-                     {address.label}
+                  {!address.label ? 'Ubatuba, São Paulo, Brazil' : address.label}
                   </Popup>
                </Marker>
             </MapContainer>
