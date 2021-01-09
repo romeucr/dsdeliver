@@ -1,9 +1,9 @@
 import axios from "axios";
 import { OrderPayload } from "./Orders/types";
 
-const API_URL = 'http://192.168.0.18:8080'
+//token do mapbox e URL da API armazenados na var de ambiente em .env
 
-//utilizando o token do mapbox que está armazenado na var de ambiente em .env
+const API_URL = process.env.REACT_APP_API_URL
 const mapboxToken = process.env.REACT_APP_ACCESS_TOKEN_MAP_BOX
 
 export function fetchProducts() {
