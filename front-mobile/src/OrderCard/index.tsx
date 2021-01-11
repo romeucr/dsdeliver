@@ -37,7 +37,6 @@ function formatPrice(price: number) {
 
 function OrderCard({ order }: Props) {
   return (
-
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.orderName}>Pedido {order.id}</Text>

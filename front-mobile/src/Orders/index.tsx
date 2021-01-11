@@ -44,8 +44,8 @@ function Orders() {
                <Text>Buscando pedidos...</Text>
             ) :
                orders.map(order => (
-                  <TouchableWithoutFeedback 
-                     key={order.id} 
+                  <TouchableWithoutFeedback
+                     key={order.id}
                      onPress={() => handleOnPress(order)} /* onPress, passa o order daquele card para o handleOnPress */
                   >
                      <OrderCard order={order} />

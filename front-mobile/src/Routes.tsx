@@ -14,7 +14,7 @@ function Routes() {
             headerMode="none" //o stack navigator já vem com umas configuração padrão de estilos, que aqui são alteradas
             screenOptions={{
                cardStyle: {
-                  backgroundColor: '#fff' 
+                  backgroundColor: '#fff'
                }
             }}
          >

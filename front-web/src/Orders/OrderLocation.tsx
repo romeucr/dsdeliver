@@ -69,7 +69,7 @@ function OrderLocation({ onChangeLocation }: Props) {
             </div>
             <MapContainer
                center={address.position}
-               zoom={13}
+               zoom={15}
                key={address.position.lat}
                scrollWheelZoom
             >
@@ -79,7 +79,7 @@ function OrderLocation({ onChangeLocation }: Props) {
                />
                <Marker position={address.position}>
                   <Popup>
-                  {!address.label ? 'Ubatuba, São Paulo, Brazil' : address.label}
+                     {!address.label ? 'Ubatuba, São Paulo, Brazil' : address.label}
                   </Popup>
                </Marker>
             </MapContainer>
