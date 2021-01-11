@@ -32,5 +32,7 @@ https://rcrdev-dsdelivery.netlify.app
 It may take some time to load the data because it is hosted on Heroku with a free account.
 
 ## Demo
-![Demo](https://github.com/romeucr/dsdeliver/blob/main/repo-assets/demo-web.gif)
+### Front-end Web
+![Demo](https://github.com/romeucr/dsdeliver/blob/main/repo-assets/demo-web.gif)  
+### Front-end Mobile  
 <img src="https://github.com/romeucr/dsdeliver/blob/main/repo-assets/demo-mobile.gif" width="30%" height="30%">
