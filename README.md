@@ -1,13 +1,13 @@
 # DS Delivery
 
 ## About
-This project is built with Java(backend), Typescript/ReactJS(frontend) and Typescript/React Native(mobile) during the second edition of the DevSuperior's Week, event organized by [DevSuperior](https://devsuperior.com.br).
+This project was built during the second edition of the DevSuperior's Week, event organized by [DevSuperior](https://devsuperior.com.br).
 
-The frontend-web is the page where you can order some food, informing your addresss where it will be delivered.
-The frontend-mobile is to be used by the person that will do the delivery. It shows all pending orders and the person can check the order's details and confirm the delivery.
+The project consists of a backend API, a we frontend-web page where you can order food and inform an addresss to where it will be delivered.
+The frontend-mobile is to be used by the person that will do the delivery. It shows all pending orders and the person can check the order's details. After the delivery it can be confirmed, so is not showed anymore.
 
 ### Conceptual Model
-![Conceptual Model](https://github.com/romeucr/dsdelivery/blob/master/assets/concept-model.png)
+![Conceptual Model](https://github.com/romeucr/dsdeliver/blob/main/repo-assets/concept-model.png)
 
 ## Some technologies used:
 ### Back end
@@ -28,10 +28,9 @@ The frontend-mobile is to be used by the person that will do the delivery. It sh
 - [Netlify](https://www.netlify.com/)
 
 ## Try it!
-[![Netlify Status](https://api.netlify.com/api/v1/badges/242dc0e9-97a8-4b79-b3a8-6a8265d3023a/deploy-status)](https://app.netlify.com/sites/rcrdev-dsdelivery/deploys)  
 https://rcrdev-dsdelivery.netlify.app  
 It may take some time to load the data because it is hosted on Heroku with a free account.
 
 ## Demo
-![Demo](https://github.com/romeucr/big-game-survey/blob/master/assets/demo.gif)
-![Demo mobile](https://github.com/romeucr/big-game-survey/blob/master/assets/demo-mob.gif)
+![Demo](https://github.com/romeucr/dsdeliver/blob/main/repo-assets/demo-web.gif)
+<img src="https://github.com/romeucr/dsdeliver/blob/main/repo-assets/demo-mobile.gif" width="30%" height="30%">
