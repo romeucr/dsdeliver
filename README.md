@@ -28,7 +28,8 @@ The frontend-mobile is to be used by the person that will do the delivery. It sh
 - [Netlify](https://www.netlify.com/)
 
 ## Try it!
-https://rcrdev-dsdelivery.netlify.app 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/242dc0e9-97a8-4b79-b3a8-6a8265d3023a/deploy-status)](https://app.netlify.com/sites/rcrdev-dsdelivery/deploys)  
+https://rcrdev-dsdelivery.netlify.app  
 It may take some time to load the data because it is hosted on Heroku with a free account.
 
 ## Demo
