@@ -17,7 +17,7 @@ function Header() {
         <Text style={styles.text}>DS Delivery</Text>
       </View>
     </TouchableWithoutFeedback>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -37,6 +37,6 @@ const styles = StyleSheet.create({
     marginLeft: 15,
     fontFamily: 'OpenSans_700Bold'
   }
-});
+})
 
 export default Header
