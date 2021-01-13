@@ -3,8 +3,10 @@
 ## About
 This project was built during the second edition of the DevSuperior's Week, event organized by [DevSuperior](https://devsuperior.com.br).
 
-The project consists of a backend API, a we frontend-web page where you can order food and inform an addresss to where it will be delivered.
-The frontend-mobile is to be used by the person that will do the delivery. It shows all pending orders and the person can check the order's details. After the delivery it can be confirmed, so is not showed anymore.
+The project consists of: 
+* Java backend API.
+* Web page where you can order food and inform an addresss to where it will be delivered.
+* Mobile app that would be used by the person that will do the delivery. It shows all pending orders and the person can check the order's details. After the delivery it can be confirmed, so is not showed anymore.
 
 ### Conceptual Model
 ![Conceptual Model](https://github.com/romeucr/dsdeliver/blob/main/repo-assets/concept-model.png)
