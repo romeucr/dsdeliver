@@ -15,7 +15,9 @@ function OrderSummary({ amount, totalPrice, selectedProducts, onSubmit }: Props)
             <div>
                <span className="amount-selected-container">
                   <strong className="amount-selected">{amount}</strong>
-               itens selecionados ({selectedProducts.map(x => x.name + `, `)})
+               
+                  itens selecionados ({selectedProducts.map(x => (<span className="itens-selected">{x.name}</span>))})
+               
             </span>
                <span className="order-summary-total">
                   Total do pedido:

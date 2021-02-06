@@ -18,3 +18,8 @@
 .footer-icons > * {
   margin-right: 5px;
 }
+
+.testando-classe {
+  font-size: 40px;
+  color: red;
+}

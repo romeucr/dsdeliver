@@ -219,6 +219,10 @@
    letter-spacing: -0.015em;
    margin-right: 5px;
  }
+
+ .itens-selected ~ .itens-selected::before {
+    content: ', ';
+ }
  
  .order-summary-total {
    font-weight: normal;
